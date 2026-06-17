@@ -1,0 +1,21 @@
+[
+	{
+		"file": "game:worldproperties/block/ore-gem-rough", 
+		"op": "addmerge",
+		"path": "/variants",
+		"value":
+		{
+				{	"Code": "amethyst"	},
+				{	"Code": "aquamarine"	},
+				{	"Code": "citrine"	},
+				{	"Code": "corundum"	},
+				{	"Code": "fluorite"	},
+				{	"Code": "lapislazuli"	},
+				{	"Code": "onyx"	},
+				{	"Code": "ruby"	},
+				{	"Code": "sapphire"	},
+				{	"Code": "topaz"	},
+				{	"Code": "turqoise"	}
+		}
+	}
+]

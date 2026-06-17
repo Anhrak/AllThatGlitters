@@ -1,0 +1,9 @@
+{
+  "type": 			"content",
+  "modid": 			"allthatglitters",
+  "name": 			"All That Glitters",
+  "authors": 		[ "Uri" ],
+  "description":	"Gemstones, gemstone tools and sparkling jewellery! NO AI USED!",
+  "version": 		"1.0.0",
+  "dependencies": 	{	"game": "1.22.2" }
+}

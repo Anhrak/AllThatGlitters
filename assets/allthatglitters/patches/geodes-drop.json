@@ -1,0 +1,35 @@
+[
+	{
+		"file": "game:blocktypes/stone/rock", 
+		"op": "move",
+		"path": "/temp",
+		"frompath": "/dropsByType/*"
+	},
+	{
+		"file": "game:blocktypes/stone/rock", 
+		"op": "addmerge",
+		"path": "/dropsByType",
+		"value":
+		{
+			"@rock-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)":
+			[
+				{
+				type: "item", 
+				code: "allthatglitters:geode-{rock}", 
+				quantity: { avg: 0.01, var: 0.005 }
+				},
+				{
+				type: "item", 
+				code: "stone-{rock}", 
+				quantity: { avg: 2.5, var: 0.5 } 
+				}
+			]
+		}
+	},
+	{
+		"file": "game:blocktypes/stone/rock", 
+		"op": "move",
+		"path": "/dropsByType/*",
+		"frompath": "/temp"
+	}
+]

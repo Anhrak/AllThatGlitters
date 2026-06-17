@@ -1,0 +1,161 @@
+[
+  {
+    "ingredientPattern": "C,G",
+    "width": "2",
+    "height": "1",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 50,
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "G": {
+        "type": "item",
+        "code": "allthatglitters:gem-*",
+        "name": "gem",
+        "allowedVariants": [
+          "fluorite",
+          "lapislazuli",
+          "turquoise",
+          "onyx"
+        ],
+        "returnedStack": {
+          "type": "item",
+          "code": "allthatglitters:gemdust"
+        },
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "allthatglitters:gem-cut-{gem}",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "C,G",
+    "width": "2",
+    "height": "1",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 50,
+        "allowedVariants": [
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "G": {
+        "type": "item",
+        "code": "allthatglitters:gem-*",
+        "name": "gem",
+        "allowedVariants": [
+          "amethyst",
+          "citrine",
+          "olivine_peridot",
+          "emerald"
+        ],
+        "returnedStack": {
+          "type": "item",
+          "code": "allthatglitters:gemdust"
+        },
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "allthatglitters:gem-cut-{gem}",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "C,G",
+    "width": "2",
+    "height": "1",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 50,
+        "allowedVariants": [
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "G": {
+        "type": "item",
+        "code": "allthatglitters:gem-*",
+        "name": "gem",
+        "allowedVariants": [
+          "aquamarine",
+          "topaz",
+          "corundum"
+        ],
+        "returnedStack": {
+          "type": "item",
+          "code": "allthatglitters:gemdust"
+        },
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "allthatglitters:gem-cut-{gem}",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "C,G",
+    "width": "2",
+    "height": "1",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 50,
+        "allowedVariants": [
+          "steel"
+        ]
+      },
+      "G": {
+        "type": "item",
+        "code": "allthatglitters:gem-*",
+        "name": "gem",
+        "allowedVariants": [
+          "ruby",
+          "sapphire",
+          "diamond"
+        ],
+        "returnedStack": {
+          "type": "item",
+          "code": "allthatglitters:gemdust"
+        },
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "allthatglitters:gem-cut-{gem}",
+      "quantity": 1
+    }
+  }
+]
