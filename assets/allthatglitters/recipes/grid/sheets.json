@@ -1,0 +1,39 @@
+[
+  {
+    "ingredientPattern": "S,P",
+    "width": "1",
+    "height": "2",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true,
+        "toolDurabilityCost": 10,
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plate-*",
+        "name": "metal",
+        "allowedVariants": [
+          "18kgold",
+          "rosegold"
+        ],
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "allthatglitters:sheet-{metal}",
+      "quantity": 4
+    }
+  }
+]

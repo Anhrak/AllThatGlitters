@@ -1,0 +1,15 @@
+- Create alloy for 18K gold (70-80% Gold, 10-15% Silver, 10-15% Copper) and Rose Gold (70-80% Gold, 20-30% Copper)
+- Create sheet Json. Allowed variants; 18k Gold, Rose Gold.
+--- Sheet: 5x4 (20 voxels, 100 units of metal, can be made as a smithing project, or with a plate + saw (makes 4))
+- Create pane, strip, setting and loop Json. Allowed variants; 18k Gold, Rose Gold
+--- Pane: 4x4x1 (16 voxels, 80 units of metal)
+--- Strip: 2x4x1 (8 voxels, 40 units of metal, made in pairs from a sheet.)
+--- Setting: 4x4x2 (20 voxels, circle on layer 1, hollow circle on layer 2, 100 units of metal)
+--- Loop: 3x3x1, hollow. (8 voxels, 0 units of metal)
+- Create jewellery types + recipes
+--- Anklet: Shape: IGS, TET, T_T
+--- Bracelet: Shape: IGS, TET, _L_
+--- Amulet: Shape: IGS, LEL, R__
+--- Belt: Shape: IGS, PEL, A__
+--- Circlet: Shape: IGS, TET, _P_
+----- shape ledger; I = Soldering Iron, G = Gem, S = Solder, E = Setting, A = Leather, P = Pane, L = Loop, T = Strip, R = Rope

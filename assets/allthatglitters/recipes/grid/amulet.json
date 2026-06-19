@@ -1,0 +1,84 @@
+[
+  {
+    "ingredientPattern": "IGS,LEL,R__",
+    "width": "3",
+    "height": "3",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "allthatglites:metalloop-*",
+        "name": "metal"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 20
+      },
+      "S": {
+        "type": "item",
+        "code": "game:leadsolder"
+      },
+      "E": {
+        "type": "item",
+        "code": "allthatglitters:setting-*",
+        "name": "metal"
+      },
+      "G": {
+        "type": "item",
+        "code": "allthatglitters:gem-cut-*",
+        "name": "gem"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "allthatglitters:amulet-{metal}-{gem}",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "IGS,LEL,R__",
+    "width": "3",
+    "height": "3",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "allthatglites:metalloop-*",
+        "name": "metal"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      },
+      "I": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true,
+        "toolDurabilityCost": 20
+      },
+      "S": {
+        "type": "item",
+        "code": "game:leadsolder"
+      },
+      "E": {
+        "type": "item",
+        "code": "allthatglitters:setting-*",
+        "name": "metal"
+      },
+      "G": {
+        "type": "item",
+        "code": "allthatglitters:gem-flawless-*",
+        "name": "gem"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "allthatglitters:amulet-flawless-{metal}-{gem}",
+      "quantity": 1
+    }
+  }
+]
