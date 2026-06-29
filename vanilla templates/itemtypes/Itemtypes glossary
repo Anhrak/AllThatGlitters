@@ -1,0 +1,26 @@
+This document acts as a novice tutorial behind explaining what several JSON properties do, specifically for Itemtypes.
+
+    code: "xxx"
+    Code determines what other files or code will need to refer the item as. You do not need to add a domain ("game:" or "modname:") before it, but will need to do so elsewhere. For example, if you write `code: "apple"`, other JSONS or code refer to this specific JSON as `modname:apple`.
+
+    variantgroups: [      ]
+    Variantgroups makes the game recognize there's more subtypes of this item than just the default you will describe below. Moving onwards, you can add "ByType" behind a property that will make that specific property only apply to those specific variants. ByType is a crazy powerful asset to make your items (and blocks) unique, and saves you work from making standalone JSONS that share a lot of other properties otherwise. Variantgroups's array can be filled in with the following subproperties:
+
+        code: "xxx"
+        Unlike to before, in this array Code will determine what THIS Json needs to refer the variant as through wildcard. For example, if you write `code: "metal"`, any further JSON code that uses {metal} in its values/arguments will automatically replace this wildcard with any and all possible states as you decide below.
+
+        loadFromProperties: "xxx"
+        If your list of available states already exists in a third party JSON listing the items, you can immediately pull this from a properties folder file using this subproperty. You can use an existing vanilla properties list like `game:ore`, or your own list like `modname:gemstones`
+
+        states: [ "xxx", "yyy", cont...]
+        States describe which valid variants exist for the afore mentioned codename. If you mentioned Metal as example, here is where you can fill in Copper, Tin, Iron, etc.
+
+    You can repeat these grouped subproprties any amount of times if your item has multiple variant categories, so long they use a different codename each. Eventually, a variantsgroup code will look like so; `variantgroups: [ {code: "metal", states: ["copper", "tin"] }, {code: "gem", states: "emerald", "diamond"} ]`
+
+    shape: { base: "xxx" }
+    This code determines what shape the item or block appears as. This property needs a folder file path, and always starts directly from the 'Shapes' folder. As example from above, and which keeps applying to below; if an item differs shapes based on its variants (and going -ByType isn't necessary), you can write `shape: { base: misc/flag{size} }` if you have set different variants for flag sizes this item. Assuming 'small' and 'large' are two stated variants, this will automaticaly give the two unique items the shapes from file `modname/shapes/misc/flagsmall.json` and `modname/shapes/misc/flaglarge.json`.
+
+    {+explain random shapes for variety}
+
+    texture: { base: "xxx" }
+    Texture works the exact same way as Shape (but instead is read from the Textures folder instead of the Shapes folder), but we're given a bit more freedom here! `base:` can stil be used in addition to its 
