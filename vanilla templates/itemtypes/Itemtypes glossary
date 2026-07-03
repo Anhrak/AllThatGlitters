@@ -24,3 +24,23 @@ This document acts as a novice tutorial behind explaining what several JSON prop
 
     texture: { base: "xxx" }
     Texture works the exact same way as Shape (but instead is read from the Textures folder instead of the Shapes folder), but we're given a bit more freedom here! `base:` can stil be used in addition to its 
+
+
+    Shapes and Textures
+    In this tutorial, I'll explain you about Shapes and Textures. Almost everywhere you'll deal with a Shape, you'll also deal with a Texture, and the two are very similarly set up. Therefore I'm bundling those together since both properties are what defines how your item, block or creature visually ends up looking like.
+
+    Let's assume first you're just using vanilla textures and/or shapes, how do you assign a shape and/or texture to your item? You do it like so;
+
+    For Shapes you write;
+
+        shape: { base: "<pathname>" }
+
+    Normally, within the Shape JSON itself are already instructions which surface has which texture applied to it. If you want to set your texture manually through the Json code (for example, when you might have variants in the code!), you write;
+
+        texture: { base: "<pathname>"}
+
+    Pretty similar, right? Let's break down how exactly this pathname needs to be written; If you are using a vanilla shape or texture, you first start off with 'game:'. If it's a shape or texture you supply within your own mod, you write your mod's ID, for our example it's 'modname:'. Then, for both instances, you write which folders it must go through, finished by the file's name. The 'shape' and 'texture' property will always immediately start searching from the 'Shapes' and 'Textures' folder DIRECTLY, so no need to fill in that one as well.
+    
+    Remember about Wildcards, those work here too! This can work in your favor if you want more variety or want to let the shape or texture change between Variants. For example, in this instance I've given this geode the texture code '{ base: "modname:geode-{stone}" }'. This will cause the geode to have a different stone texture depending on what stone variant it is!
+
+    Now, you might have noticed that I wrote 'base' on each of those. Base simply means that that is the default shape/texture it'll use before variation takes place.
