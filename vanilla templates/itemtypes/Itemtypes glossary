@@ -44,3 +44,102 @@ This document acts as a novice tutorial behind explaining what several JSON prop
     Remember about Wildcards, those work here too! This can work in your favor if you want more variety or want to let the shape or texture change between Variants. For example, in this instance I've given this geode the texture code '{ base: "modname:geode-{stone}" }'. This will cause the geode to have a different stone texture depending on what stone variant it is!
 
     Now, you might have noticed that I wrote 'base' on each of those. Base simply means that that is the default shape/texture it'll use before variation takes place.
+
+
+
+
+
+    (Unrelated)
+
+    Leagues 2 benefits per Region:
+
+Mishtalin (default)
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Karamja (default)
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Asgarnia
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Wilderness
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Desert
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+        - Red Sandstone
+Morytania
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Relekka
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+        - Lunar Magic
+    Components
+    Resources
+        - Banite Ore
+        - Bloodwood
+Piscatoris (above yanille)
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Mid Kandarin (ardougne-yanille)
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Feldip Hills (below yanille)
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+        - Potion Flasks
+    Components
+    Resources
+        - Red Sandstone
+Havenhythe
+    Equipment/Tools
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Anachronia
+    Equipment/Tools
+        - Terrasaur Maul
+    Supplies
+    Perks/Benefits
+    Components
+    Resources
+Elven Lands
+    Equipment/Tools
+        - Crystal Hatchet, Pickaxe and Mattock
+    Supplies
+        - Combination Potions
+    Perks/Benefits
+        - Potion Flasks
+        - Crystal Flasks
+    Components
+    Resources
+        - Crystal Sandstone
